@@ -10,30 +10,41 @@ h4,
 a,
 p {
     font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
+
+}
 .owl-carousel .item {
     /* border: 1px solid black; */
+    
     font-size: 24px;
     text-align: center;
     margin-top: 20px;
     ;
 }
-
 .owl-next {
     float: right;
 }
-
 .owl-prev {
     float: left;
 }
-
 .owl-prev span {
     font-size: 24px;
     font-weight: bold;
 }
-
 .owl-next span {
     font-size: 24px;
     font-weight: bold;
+}
+.product {
+    margin-top: 5px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 37%;
+    height: 35%;
 }
